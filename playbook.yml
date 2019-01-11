@@ -1,0 +1,8 @@
+---
+- name: Configure Nagios monitoring for PostgreSQL instance
+  hosts: pg-servers
+  become: true
+  become_user: '{{ postgresql_user }}'
+  roles:
+    - { role: postgresql-nagios, tags: postgresql_nagios }
+

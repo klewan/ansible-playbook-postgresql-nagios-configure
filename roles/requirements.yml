@@ -1,0 +1,15 @@
+
+- name: postgresql
+  src: https://github.com/klewan/ansible-role-postgresql.git
+  scm: git
+  #version: develop
+  #version: feature/init
+  #version: master
+
+- name: postgresql-nagios
+  src: https://github.com/klewan/ansible-role-postgresql-nagios.git
+  scm: git
+  #version: develop
+  #version: feature/init
+  #version: master
+
